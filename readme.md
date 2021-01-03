@@ -6,5 +6,3 @@ The mapping of pins which are connected to the 2x8 connectors can be made with j
 Additionally, labeled pin header/sockets expose the regular nucleo64 pins.
 
 ![Alt text](/board_render.png?raw=true "Board Render")
-
-TODO: duplicate programming connectors, allow for optional smd pullups

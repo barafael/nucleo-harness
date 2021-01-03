@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pi01-harness-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,49 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L NUCLEO-F401RE:NUCLEO-F401RE A1
-U 1 1 5DBFAB82
-P 7110 2860
-F 0 "A1" H 7110 4627 50  0000 C CNN
-F 1 "NUCLEO-F401RE" H 7110 4536 50  0000 C CNN
-F 2 "NUCLEO-F401RE:ST_NUCLEO-F401RE" H 7110 2860 50  0001 L BNN
-F 3 "STMicroelectronics" H 7110 2860 50  0001 L BNN
-F 4 "None" H 7110 2860 50  0001 L BNN "Field4"
-F 5 "STM32 Nucleo-64 development board with STM32F401RET6 MCU, supports Arduino and ST morpho connectivity" H 7110 2860 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 7110 2860 50  0001 L BNN "Field6"
-F 7 "None" H 7110 2860 50  0001 L BNN "Field7"
-F 8 "NUCLEO-F401RE" H 7110 2860 50  0001 L BNN "Field8"
-	1    7110 2860
-	1    0    0    -1  
-$EndComp
-$Comp
-L NUCLEO-F401RE:NUCLEO-F401RE A1
-U 2 1 5DBFED4B
-P 4660 2840
-F 0 "A1" H 4660 4507 50  0000 C CNN
-F 1 "NUCLEO-F401RE" H 4660 4416 50  0000 C CNN
-F 2 "NUCLEO-F401RE:ST_NUCLEO-F401RE" H 4660 2840 50  0001 L BNN
-F 3 "STMicroelectronics" H 4660 2840 50  0001 L BNN
-F 4 "None" H 4660 2840 50  0001 L BNN "Field4"
-F 5 "STM32 Nucleo-64 development board with STM32F401RET6 MCU, supports Arduino and ST morpho connectivity" H 4660 2840 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 4660 2840 50  0001 L BNN "Field6"
-F 7 "None" H 4660 2840 50  0001 L BNN "Field7"
-F 8 "NUCLEO-F401RE" H 4660 2840 50  0001 L BNN "Field8"
-	2    4660 2840
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5DC363E1
-P 5360 4340
-F 0 "#PWR0101" H 5360 4090 50  0001 C CNN
-F 1 "GND" H 5365 4167 50  0000 C CNN
-F 2 "" H 5360 4340 50  0001 C CNN
-F 3 "" H 5360 4340 50  0001 C CNN
-	1    5360 4340
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5DD09E9A
@@ -112,247 +68,114 @@ F 3 "" H 8660 2990 50  0001 C CNN
 	1    8660 2990
 	0    1    1    0   
 $EndComp
-Text GLabel 7810 1860 2    50   Input ~ 0
-VIN
 Text GLabel 8660 3090 0    50   Input ~ 0
 VIN
 Text GLabel 8660 3290 0    50   Input ~ 0
 PA0
-Text GLabel 6410 2360 0    50   Input ~ 0
-PA0
 Text GLabel 8660 3390 0    50   Input ~ 0
-PA1
-Text GLabel 6410 2460 0    50   Input ~ 0
 PA1
 Text GLabel 8660 3490 0    50   Input ~ 0
 PA4
-Text GLabel 6410 2560 0    50   Input ~ 0
-PA4
 Text GLabel 8660 3590 0    50   Input ~ 0
-PB0
-Text GLabel 6410 3060 0    50   Input ~ 0
 PB0
 Text GLabel 8660 3690 0    50   Input ~ 0
 PC1
-Text GLabel 6410 3460 0    50   Input ~ 0
-PC1
 Text GLabel 8660 3790 0    50   Input ~ 0
 PC0
-Text GLabel 6410 3360 0    50   Input ~ 0
-PC0
-Text GLabel 6410 3160 0    50   Input ~ 0
-PB7
 Text GLabel 9160 2990 2    50   Input ~ 0
 PB7
-Text GLabel 6410 2860 0    50   Input ~ 0
-PA15
 Text GLabel 9160 2790 2    50   Input ~ 0
 PA15
-Text GLabel 6410 2760 0    50   Input ~ 0
-PA14
 Text GLabel 9160 2690 2    50   Input ~ 0
 PA14
-Text GLabel 6410 2660 0    50   Input ~ 0
-PA13
 Text GLabel 9160 2590 2    50   Input ~ 0
 PA13
-Text GLabel 6410 2160 0    50   Input ~ 0
-BOOT0
 Text GLabel 9160 2290 2    50   Input ~ 0
 BOOT0
-Text GLabel 6410 2060 0    50   Input ~ 0
-NRST
 Text GLabel 8660 2590 0    50   Input ~ 0
 NRST
-Text GLabel 6410 3560 0    50   Input ~ 0
-PC2
 Text GLabel 9160 3690 2    50   Input ~ 0
 PC2
-Text GLabel 6410 3660 0    50   Input ~ 0
-PC3
 Text GLabel 9160 3790 2    50   Input ~ 0
 PC3
-Text GLabel 6410 3760 0    50   Input ~ 0
-PC11
 Text GLabel 8660 1990 0    50   Input ~ 0
 PC11
-Text GLabel 6410 3860 0    50   Input ~ 0
-PC10
 Text GLabel 9160 1990 2    50   Input ~ 0
 PC10
-Text GLabel 6410 3960 0    50   Input ~ 0
-PC12
 Text GLabel 9160 2090 2    50   Input ~ 0
 PC12
-Text GLabel 6410 4060 0    50   Input ~ 0
-PC13
 Text GLabel 9160 3090 2    50   Input ~ 0
 PC13
-Text GLabel 6410 4160 0    50   Input ~ 0
-PC14
 Text GLabel 9160 3190 2    50   Input ~ 0
 PC14
-Text GLabel 6410 4260 0    50   Input ~ 0
-PC15
 Text GLabel 9160 3290 2    50   Input ~ 0
 PC15
-Text GLabel 7810 2060 2    50   Input ~ 0
-IOREF
 Text GLabel 8660 2490 0    50   Input ~ 0
 IOREF
-Text GLabel 7810 1460 2    50   Input ~ 0
-5V
 Text GLabel 8660 2190 0    50   Input ~ 0
 E5V
 Text GLabel 8660 2790 0    50   Input ~ 0
 5V
-Text GLabel 7810 1660 2    50   Input ~ 0
-VBAT
 Text GLabel 9160 3590 2    50   Input ~ 0
 VBAT
 Text GLabel 9160 2190 2    50   Input ~ 0
 VDD
-Text GLabel 7810 1760 2    50   Input ~ 0
-VDD
 Text GLabel 8660 2090 0    50   Input ~ 0
 PD2
-Text GLabel 7810 2160 2    50   Input ~ 0
-PD2
-Text GLabel 7810 2360 2    50   Input ~ 0
-PH0
 Text GLabel 9160 3390 2    50   Input ~ 0
 PH0
-Text GLabel 7810 2460 2    50   Input ~ 0
-PH1
 Text GLabel 9160 3490 2    50   Input ~ 0
 PH1
-Text GLabel 7810 1360 2    50   Input ~ 0
-3V3
 Text GLabel 8660 2690 0    50   Input ~ 0
 3V3
-Text GLabel 5360 2140 2    50   Input ~ 0
-PC8
 Text GLabel 2420 1880 0    50   Input ~ 0
 PC8
-Text GLabel 5360 2040 2    50   Input ~ 0
-PC7
 Text GLabel 2920 2780 2    50   Input ~ 0
 PC7
-Text GLabel 5360 2240 2    50   Input ~ 0
-PC9
 Text GLabel 2920 1880 2    50   Input ~ 0
 PC9
 Text GLabel 2920 2580 2    50   Input ~ 0
 PA7
-Text GLabel 3960 2140 0    50   Input ~ 0
-PA7
-Text GLabel 5360 1940 2    50   Input ~ 0
-PC6
 Text GLabel 2420 1980 0    50   Input ~ 0
 PC6
 Text GLabel 2920 2480 2    50   Input ~ 0
 PA6
-Text GLabel 3960 2040 0    50   Input ~ 0
-PA6
-Text GLabel 5360 1840 2    50   Input ~ 0
-PC5
 Text GLabel 2420 2080 0    50   Input ~ 0
 PC5
-Text GLabel 5360 1740 2    50   Input ~ 0
-PC4
 Text GLabel 2420 3480 0    50   Input ~ 0
 PC4
-Text GLabel 3960 2340 0    50   Input ~ 0
-PA9
 Text GLabel 2920 2880 2    50   Input ~ 0
 PA9
-Text GLabel 3960 2240 0    50   Input ~ 0
-PA8
-Text GLabel 3960 3640 0    50   Input ~ 0
-PB10
-Text GLabel 3960 3140 0    50   Input ~ 0
-PB4
-Text GLabel 3960 3240 0    50   Input ~ 0
-PB5
-Text GLabel 3960 2840 0    50   Input ~ 0
-PB1
 Text GLabel 2420 2980 0    50   Input ~ 0
 PB1
-Text GLabel 3960 2440 0    50   Input ~ 0
-PA10
-Text GLabel 3960 3040 0    50   Input ~ 0
-PB3
-Text GLabel 3960 2940 0    50   Input ~ 0
-PB2
 Text GLabel 2420 2880 0    50   Input ~ 0
 PB2
-Text GLabel 3960 3340 0    50   Input ~ 0
-PB6
 Text GLabel 2920 2680 2    50   Input ~ 0
 PB6
-Text GLabel 3960 3440 0    50   Input ~ 0
-PB8
 Text GLabel 2920 1980 2    50   Input ~ 0
 PB8
-Text GLabel 3960 1740 0    50   Input ~ 0
-PA2
-Text GLabel 3960 1840 0    50   Input ~ 0
-PA3
-Text GLabel 3960 2640 0    50   Input ~ 0
-PA12
 Text GLabel 2420 2380 0    50   Input ~ 0
 PA12
-Text GLabel 3960 2540 0    50   Input ~ 0
-PA11
 Text GLabel 2420 2480 0    50   Input ~ 0
 PA11
-Text GLabel 3960 3540 0    50   Input ~ 0
-PB9
 Text GLabel 2920 2080 2    50   Input ~ 0
 PB9
-Text GLabel 3960 3840 0    50   Input ~ 0
-PB12
 Text GLabel 2420 2580 0    50   Input ~ 0
 PB12
-Text GLabel 3960 3940 0    50   Input ~ 0
-PB13
 Text GLabel 2420 3280 0    50   Input ~ 0
 PB13
-Text GLabel 3960 4040 0    50   Input ~ 0
-PB14
 Text GLabel 2420 3180 0    50   Input ~ 0
 PB14
-Text GLabel 3960 4140 0    50   Input ~ 0
-PB15
 Text GLabel 2420 3080 0    50   Input ~ 0
 PB15
-Text GLabel 5360 4240 2    50   Input ~ 0
-AGND
 Text GLabel 2420 3380 0    50   Input ~ 0
 AGND
-Text GLabel 3960 1940 0    50   Input ~ 0
-PA5
 Text GLabel 2920 2380 2    50   Input ~ 0
 PA5
-Text GLabel 5360 1440 2    50   Input ~ 0
-AVDD
 Text GLabel 2920 2180 2    50   Input ~ 0
 AVDD
-Text GLabel 5360 1540 2    50   Input ~ 0
-U5V
 Text GLabel 2420 2180 0    50   Input ~ 0
 U5V
-$Comp
-L power:GND #PWR0102
-U 1 1 5E0B9817
-P 7810 4460
-F 0 "#PWR0102" H 7810 4210 50  0001 C CNN
-F 1 "GND" H 7815 4287 50  0000 C CNN
-F 2 "" H 7810 4460 50  0001 C CNN
-F 3 "" H 7810 4460 50  0001 C CNN
-	1    7810 4460
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even P2
 U 1 1 5DC259A7
@@ -830,8 +653,308 @@ NoConn ~ 980  3660
 NoConn ~ 980  2260
 Text GLabel 980  2660 0    50   Input ~ 0
 PB11
-Text GLabel 3960 3740 0    50   Input ~ 0
+$Comp
+L power:GND #PWR0114
+U 1 1 5FF4C3D8
+P 4420 2770
+F 0 "#PWR0114" H 4420 2520 50  0001 C CNN
+F 1 "GND" V 4425 2642 50  0000 R CNN
+F 2 "" H 4420 2770 50  0001 C CNN
+F 3 "" H 4420 2770 50  0001 C CNN
+	1    4420 2770
+	0    1    1    0   
+$EndComp
+Text GLabel 4420 1870 0    50   Input ~ 0
+PC8
+Text GLabel 4920 2770 2    50   Input ~ 0
+PC7
+Text GLabel 4920 1870 2    50   Input ~ 0
+PC9
+Text GLabel 4920 2570 2    50   Input ~ 0
+PA7
+Text GLabel 4420 1970 0    50   Input ~ 0
+PC6
+Text GLabel 4920 2470 2    50   Input ~ 0
+PA6
+Text GLabel 4420 2070 0    50   Input ~ 0
+PC5
+Text GLabel 4420 3470 0    50   Input ~ 0
+PC4
+Text GLabel 4920 2870 2    50   Input ~ 0
+PA9
+Text GLabel 4420 2970 0    50   Input ~ 0
+PB1
+Text GLabel 4420 2870 0    50   Input ~ 0
+PB2
+Text GLabel 4920 2670 2    50   Input ~ 0
+PB6
+Text GLabel 4920 1970 2    50   Input ~ 0
+PB8
+Text GLabel 4420 2370 0    50   Input ~ 0
+PA12
+Text GLabel 4420 2470 0    50   Input ~ 0
+PA11
+Text GLabel 4920 2070 2    50   Input ~ 0
+PB9
+Text GLabel 4420 2570 0    50   Input ~ 0
+PB12
+Text GLabel 4420 3270 0    50   Input ~ 0
+PB13
+Text GLabel 4420 3170 0    50   Input ~ 0
+PB14
+Text GLabel 4420 3070 0    50   Input ~ 0
+PB15
+Text GLabel 4420 3370 0    50   Input ~ 0
+AGND
+Text GLabel 4920 2370 2    50   Input ~ 0
+PA5
+Text GLabel 4920 2170 2    50   Input ~ 0
+AVDD
+Text GLabel 4420 2170 0    50   Input ~ 0
+U5V
+$Comp
+L Connector_Generic:Conn_02x19_Odd_Even J9
+U 1 1 5FF4C976
+P 4720 2770
+F 0 "J9" H 4770 3887 50  0000 C CNN
+F 1 "Conn_02x19_Odd_Even" H 4770 3796 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical" H 4720 2770 50  0001 C CNN
+F 3 "~" H 4720 2770 50  0001 C CNN
+	1    4720 2770
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5FF4C980
+P 4920 2270
+F 0 "#PWR0124" H 4920 2020 50  0001 C CNN
+F 1 "GND" V 4925 2142 50  0000 R CNN
+F 2 "" H 4920 2270 50  0001 C CNN
+F 3 "" H 4920 2270 50  0001 C CNN
+	1    4920 2270
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4920 3670 2    50   Input ~ 0
+PA3
+Text GLabel 4920 3370 2    50   Input ~ 0
+PB3
+Text GLabel 4920 3470 2    50   Input ~ 0
+PA10
+Text GLabel 4920 3270 2    50   Input ~ 0
+PB5
+Text GLabel 4920 3170 2    50   Input ~ 0
+PB4
+Text GLabel 4920 3070 2    50   Input ~ 0
+PB10
+Text GLabel 4920 2970 2    50   Input ~ 0
+PA8
+NoConn ~ 4420 3570
+NoConn ~ 4420 3670
+NoConn ~ 4420 2270
+Text GLabel 4420 2670 0    50   Input ~ 0
 PB11
-Text GLabel 7810 1560 2    50   Input ~ 0
+$Comp
+L Connector_Generic:Conn_02x19_Odd_Even J10
+U 1 1 5FF62A28
+P 7040 2800
+F 0 "J10" H 7090 3917 50  0000 C CNN
+F 1 "Conn_02x19_Odd_Even" H 7090 3826 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical" H 7040 2800 50  0001 C CNN
+F 3 "~" H 7040 2800 50  0001 C CNN
+	1    7040 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5FF63102
+P 6840 2800
+F 0 "#PWR0125" H 6840 2550 50  0001 C CNN
+F 1 "GND" V 6845 2672 50  0000 R CNN
+F 2 "" H 6840 2800 50  0001 C CNN
+F 3 "" H 6840 2800 50  0001 C CNN
+	1    6840 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5FF6310C
+P 7340 2800
+F 0 "#PWR0126" H 7340 2550 50  0001 C CNN
+F 1 "GND" V 7345 2672 50  0000 R CNN
+F 2 "" H 7340 2800 50  0001 C CNN
+F 3 "" H 7340 2800 50  0001 C CNN
+	1    7340 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5FF63116
+P 6840 2900
+F 0 "#PWR0127" H 6840 2650 50  0001 C CNN
+F 1 "GND" V 6845 2772 50  0000 R CNN
+F 2 "" H 6840 2900 50  0001 C CNN
+F 3 "" H 6840 2900 50  0001 C CNN
+	1    6840 2900
+	0    1    1    0   
+$EndComp
+Text GLabel 6840 3000 0    50   Input ~ 0
+VIN
+Text GLabel 6840 3200 0    50   Input ~ 0
+PA0
+Text GLabel 6840 3300 0    50   Input ~ 0
+PA1
+Text GLabel 6840 3400 0    50   Input ~ 0
+PA4
+Text GLabel 6840 3500 0    50   Input ~ 0
+PB0
+Text GLabel 6840 3600 0    50   Input ~ 0
+PC1
+Text GLabel 6840 3700 0    50   Input ~ 0
+PC0
+Text GLabel 7340 2900 2    50   Input ~ 0
+PB7
+Text GLabel 7340 2700 2    50   Input ~ 0
+PA15
+Text GLabel 7340 2600 2    50   Input ~ 0
+PA14
+Text GLabel 7340 2500 2    50   Input ~ 0
+PA13
+Text GLabel 7340 2200 2    50   Input ~ 0
+BOOT0
+Text GLabel 6840 2500 0    50   Input ~ 0
+NRST
+Text GLabel 7340 3600 2    50   Input ~ 0
+PC2
+Text GLabel 7340 3700 2    50   Input ~ 0
+PC3
+Text GLabel 6840 1900 0    50   Input ~ 0
+PC11
+Text GLabel 7340 1900 2    50   Input ~ 0
+PC10
+Text GLabel 7340 2000 2    50   Input ~ 0
+PC12
+Text GLabel 7340 3000 2    50   Input ~ 0
+PC13
+Text GLabel 7340 3100 2    50   Input ~ 0
+PC14
+Text GLabel 7340 3200 2    50   Input ~ 0
+PC15
+Text GLabel 6840 2400 0    50   Input ~ 0
+IOREF
+Text GLabel 6840 2100 0    50   Input ~ 0
 E5V
+Text GLabel 6840 2700 0    50   Input ~ 0
+5V
+Text GLabel 7340 3500 2    50   Input ~ 0
+VBAT
+Text GLabel 7340 2100 2    50   Input ~ 0
+VDD
+Text GLabel 6840 2000 0    50   Input ~ 0
+PD2
+Text GLabel 7340 3300 2    50   Input ~ 0
+PH0
+Text GLabel 7340 3400 2    50   Input ~ 0
+PH1
+Text GLabel 6840 2600 0    50   Input ~ 0
+3V3
+$Comp
+L power:GND #PWR0128
+U 1 1 5FF6313E
+P 6840 2200
+F 0 "#PWR0128" H 6840 1950 50  0001 C CNN
+F 1 "GND" V 6845 2072 50  0000 R CNN
+F 2 "" H 6840 2200 50  0001 C CNN
+F 3 "" H 6840 2200 50  0001 C CNN
+	1    6840 2200
+	0    1    1    0   
+$EndComp
+NoConn ~ 6840 2300
+NoConn ~ 6840 3100
+NoConn ~ 7340 2300
+NoConn ~ 7340 2400
+Text GLabel 5880 4920 0    50   Input ~ 0
+PA3
+Text GLabel 4920 3570 2    50   Input ~ 0
+PA2
+Text GLabel 5880 5020 0    50   Input ~ 0
+PA2
+Text GLabel 5880 5120 0    50   Input ~ 0
+PA10
+Text GLabel 5880 5220 0    50   Input ~ 0
+PB3
+Text GLabel 5880 5320 0    50   Input ~ 0
+PB5
+Text GLabel 5880 5420 0    50   Input ~ 0
+PB4
+Text GLabel 5880 5520 0    50   Input ~ 0
+PB10
+Text GLabel 5880 5620 0    50   Input ~ 0
+PA8
+Text GLabel 5880 5720 0    50   Input ~ 0
+PA9
+Text GLabel 5880 5820 0    50   Input ~ 0
+PC7
+Text GLabel 5880 5920 0    50   Input ~ 0
+PB6
+Text GLabel 5880 6020 0    50   Input ~ 0
+PA7
+Text GLabel 5880 6120 0    50   Input ~ 0
+PA6
+Text GLabel 5880 6220 0    50   Input ~ 0
+PA5
+$Comp
+L power:GND #PWR0101
+U 1 1 60039BFD
+P 6380 6620
+F 0 "#PWR0101" H 6380 6370 50  0001 C CNN
+F 1 "GND" H 6385 6447 50  0000 C CNN
+F 2 "" H 6380 6620 50  0001 C CNN
+F 3 "" H 6380 6620 50  0001 C CNN
+	1    6380 6620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6380 6620 6480 6620
+Connection ~ 6380 6620
+Wire Wire Line
+	6380 6620 6280 6620
+Text GLabel 6280 4520 1    50   Input ~ 0
+VIN
+Text GLabel 6480 4520 1    50   Input ~ 0
+3V3
+Text GLabel 6580 4520 1    50   Input ~ 0
+5V
+Text GLabel 6880 4920 2    50   Input ~ 0
+NRST
+Text GLabel 6880 5120 2    50   Input ~ 0
+IOREF
+Text GLabel 6880 5320 2    50   Input ~ 0
+AVDD
+Text GLabel 6880 5520 2    50   Input ~ 0
+PA0
+Text GLabel 6880 5620 2    50   Input ~ 0
+PA1
+Text GLabel 6880 5720 2    50   Input ~ 0
+PA4
+Text GLabel 6880 5820 2    50   Input ~ 0
+PB0
+Text GLabel 6880 5920 2    50   Input ~ 0
+PC1
+Text GLabel 6880 6020 2    50   Input ~ 0
+PC0
+Text GLabel 5880 6320 0    50   Input ~ 0
+PB9
+Text GLabel 5880 6420 0    50   Input ~ 0
+PB8
+$Comp
+L mcu:Arduino_UNO_R3 A1
+U 1 1 5FF94E56
+P 6380 5520
+F 0 "A1" H 6380 6701 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 6380 6610 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 6380 5520 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 6380 5520 50  0001 C CNN
+	1    6380 5520
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

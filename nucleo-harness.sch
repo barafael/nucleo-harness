@@ -1012,4 +1012,84 @@ Text GLabel 4420 3770 0    50   Input ~ 0
 POW_5V
 Text GLabel 4920 3770 2    50   Input ~ 0
 POW_3v3
+Text GLabel 9320 4700 2    50   Input ~ 0
+PA9
+Text GLabel 9320 4800 2    50   Input ~ 0
+PA10
+Text GLabel 9320 4900 2    50   Input ~ 0
+NRST
+Text GLabel 9320 5100 2    50   Input ~ 0
+PA12
+Text GLabel 9320 5200 2    50   Input ~ 0
+PB0
+Text GLabel 9320 5300 2    50   Input ~ 0
+PB7
+Text GLabel 9320 5400 2    50   Input ~ 0
+PB6
+Text GLabel 9320 5500 2    50   Input ~ 0
+PB1
+Text GLabel 9320 5800 2    50   Input ~ 0
+PA8
+Text GLabel 9320 5900 2    50   Input ~ 0
+PA11
+Text GLabel 9320 6000 2    50   Input ~ 0
+PB5
+Text GLabel 9320 6100 2    50   Input ~ 0
+PB4
+$Comp
+L power:GND #PWR0102
+U 1 1 603BA263
+P 9320 5000
+F 0 "#PWR0102" H 9320 4750 50  0001 C CNN
+F 1 "GND" V 9325 4872 50  0000 R CNN
+F 2 "" H 9320 5000 50  0001 C CNN
+F 3 "" H 9320 5000 50  0001 C CNN
+	1    9320 5000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 9320 5600
+NoConn ~ 9320 5700
+$Comp
+L nucleo-f303:NUCLEO-32 A2
+U 1 1 603AE3C7
+P 8920 5400
+F 0 "A2" H 8920 6365 50  0000 C CNN
+F 1 "NUCLEO-32" H 8920 6274 50  0000 C CNN
+F 2 "nucleo-f303:MODULE_NUCLEO-F303K8" H 8520 6225 50  0001 L BNN
+F 3 "" H 8920 5400 50  0001 L BNN
+F 4 "ST Microelectronics" H 8545 6325 50  0001 L BNN "MANUFACTURER"
+F 5 "3" H 8920 5400 50  0001 L BNN "PARTREV"
+	1    8920 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8520 6100 0    50   Input ~ 0
+PB3
+Text GLabel 8520 6000 0    50   Input ~ 0
+VDD
+Text GLabel 8520 5900 0    50   Input ~ 0
+VDDA
+Text GLabel 8520 5800 0    50   Input ~ 0
+PA0
+Text GLabel 8520 5700 0    50   Input ~ 0
+PA1
+Text GLabel 8520 5600 0    50   Input ~ 0
+PA3
+Text GLabel 8520 5500 0    50   Input ~ 0
+PA4
+Text GLabel 8520 5400 0    50   Input ~ 0
+PA5
+Text GLabel 8520 5300 0    50   Input ~ 0
+PA6
+Text GLabel 8520 5200 0    50   Input ~ 0
+PA7
+Text GLabel 8520 5100 0    50   Input ~ 0
+PA2
+Text GLabel 8520 5000 0    50   Input ~ 0
+5V
+Text GLabel 8520 4900 0    50   Input ~ 0
+NRST
+Text GLabel 8520 4800 0    50   Input ~ 0
+GND
+Text GLabel 8520 4700 0    50   Input ~ 0
+VIN
 $EndSCHEMATC

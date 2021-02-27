@@ -1,0 +1,3 @@
+[submodule "nucleo32-kicad"]
+	path = nucleo32-kicad
+	url = https://github.com/barafael/nucleo32-kicad.git
